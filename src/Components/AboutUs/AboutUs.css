@@ -1,0 +1,12 @@
+.aboutUs .play{
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    animation: shadow 2s ease-in infinite;
+    box-shadow: 0px 0px 1px 15px #3fbcc05c;
+}
+@media screen and (max-width: 900px) {
+    .aboutUs img{
+        height: 300px !important;
+    }
+}

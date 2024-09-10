@@ -1,0 +1,51 @@
+.hero .carousel-item img {
+    object-fit: cover !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+.hero .carousel-caption {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 85% !important;
+    padding: 0 !important; 
+}
+.hero .backGround{
+    background-color: rgba(255, 255, 255, 0.757);
+    border-top: solid 4px var(--primary-color);
+    padding: 40px 5px;
+}
+.hero .carousel-indicators [data-bs-target]{
+    height: 12px !important;
+    width: 12px !important;
+    border-radius: 50% !important;
+}
+.hero .carousel-indicators .active{
+    background-color: var(--primary-color) !important;
+}
+.hero .carousel-control-next,
+.hero .carousel-control-prev{
+    width: 7% !important;
+}
+.hero .carousel-control-prev-icon,
+.hero .carousel-control-next-icon{
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+.hero .carousel-control-next-icon:hover,
+.hero .carousel-control-prev-icon:hover{
+    background-color: var(--primary-color) !important;
+}
+@media screen and (max-width : 1000px) {
+    .hero .carousel-item{
+        height: 700px !important;
+    }
+    .hero .carousel-caption{
+        width: 75% !important;
+    }.hero .carousel-control-next,
+    .hero .carousel-control-prev{
+        width: 10% !important;
+    }
+}

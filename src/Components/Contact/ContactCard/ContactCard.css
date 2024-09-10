@@ -1,0 +1,10 @@
+.contactCard{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.contactCard .border{
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+    line-height: 60px;
+    border: 1px dashed var(--primary-color) !important;
+}

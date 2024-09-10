@@ -1,0 +1,14 @@
+.contactForm{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.contactForm input::placeholder,textarea::placeholder{
+    color: rgba(0, 0, 0, 0.32) !important;
+    font-weight: 500;
+}
+.contactForm input:focus,textarea:focus{
+    border-color: var(--primary-color) !important;
+    outline: none;
+}
+.contactForm textarea{
+    height: 100px;
+}

@@ -1,0 +1,8 @@
+.line::after{
+    content: '';
+    width: 5%;
+    height: 3px;
+    background-color: var(--primary-color);
+    display: block;
+    margin: 20px auto;
+}

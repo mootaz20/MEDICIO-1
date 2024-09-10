@@ -1,0 +1,14 @@
+.needHelpSection h3{
+    color: white !important;
+}
+.needHelpSection .bg-outline{
+    background-color: #f7f7f7;
+    background-color: transparent;
+    padding: 12px 40px;
+    transition: all .5s;
+    border-radius: 3px;
+}
+.needHelpSection .bg-outline:hover{
+    background-color: white;
+    color: var(--primary-color);
+}

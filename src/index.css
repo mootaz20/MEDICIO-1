@@ -1,0 +1,21 @@
+:root{
+  --primary-color : #3fbbc0;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.txt-color{
+  color: var(--primary-color) !important;
+}
+.bg-color{
+  background-color: var(--primary-color) !important;
+}
+h1,h2,h3,h4{
+  color: rgb(83, 83, 83) !important;
+}
+.pStyle{
+  font-size: 15px;
+  color: rgb(83, 83, 83);
+}

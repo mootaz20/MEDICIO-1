@@ -1,0 +1,11 @@
+.appointmentComp{
+    background-color: #4cced215;
+}
+.appointmentComp .line::after{
+    content: '';
+    display: block;
+    width: 5%;
+    height: 3px;
+    margin: 20px auto;
+    background-color: var(--primary-color);
+}

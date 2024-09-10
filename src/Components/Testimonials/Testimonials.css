@@ -1,0 +1,8 @@
+.testimonials .line::after{
+    content: '';
+    display: block;
+    width: 5%;
+    height: 3px;
+    margin: 20px auto;
+    background-color: var(--primary-color);
+}

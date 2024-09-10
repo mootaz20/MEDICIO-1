@@ -1,0 +1,13 @@
+.scroll-to-top-btn {
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 999;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .scroll-to-top-btn:hover {
+    opacity: 1;
+  }
+  

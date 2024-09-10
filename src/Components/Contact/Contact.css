@@ -1,0 +1,8 @@
+.contact .line::after{
+    content: '';
+    display: block;
+    width: 5%;
+    height: 3px;
+    background-color: var(--primary-color);
+    margin: 20px auto;
+}

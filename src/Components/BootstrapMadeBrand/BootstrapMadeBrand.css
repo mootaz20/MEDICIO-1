@@ -1,0 +1,23 @@
+.bootstrapMadeBrand{
+    background-color: #023B6D !important;
+    overflow: hidden !important;
+}
+.bootstrapMadeBrand .last{
+    width: 170px;
+}
+.bootstrapMadeBrand .text-white-50:hover{
+    color: white !important;
+    cursor: pointer !important;
+}
+.bootstrapMadeBrand .text-uppercase{
+    font-size: 13px;
+}
+@media screen and (max-width : 915px) {
+    .bootstrapMadeBrand .last{
+        width: 130px;
+        justify-content: center;
+    }
+    .bootstrapMadeBrand .text-uppercase{
+        font-size: 12px;
+    }
+}

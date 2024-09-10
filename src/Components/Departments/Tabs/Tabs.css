@@ -1,0 +1,23 @@
+.nav-pills .nav-link{
+    color: black !important;
+    font-weight: 700 !important;
+    border-right: 2px solid rgba(123, 123, 123, 0.195) !important;
+    border-radius: 0 !important;
+    padding: 11px 0 !important;
+}
+.nav-pills .nav-link.active{
+    background-color: white !important;
+    color: var(--primary-color) !important;
+    border-right-color: var(--primary-color) !important;
+}
+@media screen and (max-width: 576px) {
+    .nav-pills .nav-link{
+        padding: 11px 10px !important;
+        border-right: none !important;
+        border-radius: 5px !important;
+    }
+    .nav-pills .nav-link.active{
+        background-color: var(--primary-color) !important;
+        color: white !important;
+    }
+}

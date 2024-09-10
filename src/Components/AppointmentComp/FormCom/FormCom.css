@@ -1,0 +1,7 @@
+.formCom input::placeholder,textarea::placeholder,select::placeholder {
+    color: rgb(171, 171, 171) !important;
+}
+.formCom input:focus,textarea:focus,select:focus {
+    outline: none;
+    border: 1px solid var(--primary-color) !important;
+}
